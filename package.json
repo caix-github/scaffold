@@ -1,0 +1,27 @@
+{
+  "name": "zapx-cli",
+  "version": "1.1.1",
+  "description": "vue脚手架（构建前端vue框架）",
+  "main": "./bin/index.js",
+  "bin": {
+    "zapx-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zphit",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "download": "^8.0.0",
+    "fs-extra": "^11.1.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^5.2.0",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1",
+    "update-notifier": "^5.1.0"
+  }
+}
